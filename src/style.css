@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0px auto;
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu .logo{
+    color: #1877c9;
+    font-weight: 600;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10px;
+    flex: 1;
+}
+
+.menu-items a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+.cart{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #1877c9;
+    color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+
+
+/*     ///////////////////                 */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    grid-gap: 10px;
+}
+
+.card{
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 6px 6px 6px 6px;
+    position: relative;
+    background-color: aliceblue;
+    
+}
+
+.card .info{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+
+}
+
+.info span{
+    font-size: 16px;
+    margin: 5px;
+}
+
+
+.card  .btn-primary{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1877c9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.card  .btn-secondary{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff1717;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.cart-contaner{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 300px;
+
+}
+
+.cart-products{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ccc;
+    margin: 10px;
+    width:100%;
+
+}
+
+
+.cart-product{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 80%;
+    align-items: center;
+}
+.cart-title-img {
+
+}
+
+.cart-title-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+ .guud{
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.payment-card{
+    border:  1px solid #ccc;
+    border-radius: 5px ;
+    padding: 5px 80px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.form-cantrol{
+ padding: 10px 22px;
+ margin-bottom: 5px;
+}
+
+.procced{
+    color: white;
+    padding: 10px 80px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
