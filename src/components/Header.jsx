@@ -10,7 +10,7 @@ const Header = () => {
 
        
         <div className="menu">
-            <Link className="logo" to="/"> REACTIFY</Link>
+            <Link className="logo" to="/"> REACTIFYAPP</Link>
 
             <div className="menu-items">
                 <Link to="/">Home</Link>
